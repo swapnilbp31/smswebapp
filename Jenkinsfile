@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git 'https://github.com/swapnilbp31/smswebapp.git'
+                 git 'https://github.com/swapnilbp31/smswebapp.git', branch: 'main'
             }
         }
 
