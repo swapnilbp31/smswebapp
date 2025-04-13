@@ -34,7 +34,7 @@ pipeline {
         }
         stage('create docker image') {
       steps {
-        sh 'docker build -t swapnilbp/.Net:latest .'
+        sh 'docker build -t swapnilbp/dotnet:latest .'
       }
     }
     stage('push docker image to dockerhub') {
@@ -42,7 +42,7 @@ pipeline {
         
         withDockerRegistry(credentialsId: 'Docker_hub', url: 'https://index.docker.io/v1/') {
             
-                sh 'docker push swapnilbp/.Net:latest'
+                sh 'docker push swapnilbp/dotnet:latest'
             
         }
       }
