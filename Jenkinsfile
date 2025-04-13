@@ -14,23 +14,22 @@ pipeline {
 
         stage('Build') {
             steps {
-                script {
-                    // Restoring dependencies
-                    //bat "cd ${DOTNET_CLI_HOME} && dotnet restore"
-                    bat "dotnet restore"
+            script {
+                // Restoring dependencies
+                sh "dotnet restore"
 
-                    // Building the application
-                    bat "dotnet build --configuration Release"
-                }
+                // Building the application
+                sh "dotnet build --configuration Release"
+            }
             }
         }
 
         stage('Test') {
             steps {
-                script {
-                    // Running tests
-                    bat "dotnet test --no-restore --configuration Release"
-                }
+            script {
+                // Running tests
+                sh "dotnet test --no-restore --configuration Release"
+            }
             }
         }
 
