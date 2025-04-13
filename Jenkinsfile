@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git 'https://github.com/swapnilbp31/smswebapp.git', branch: 'main'
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/swapnilbp31/smswebapp.git']]])
             }
         }
 
