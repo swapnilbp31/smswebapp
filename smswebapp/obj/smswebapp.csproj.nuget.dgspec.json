@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\smswebapp.csproj": {}
+    "D:\\swapnil\\git\\smswebapp\\smswebapp\\smswebapp.csproj": {}
   },
   "projects": {
-    "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\smswebapp.csproj": {
+    "D:\\swapnil\\git\\smswebapp\\smswebapp\\smswebapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\smswebapp.csproj",
+        "projectUniqueName": "D:\\swapnil\\git\\smswebapp\\smswebapp\\smswebapp.csproj",
         "projectName": "smswebapp",
-        "projectPath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\smswebapp.csproj",
-        "packagesPath": "C:\\Users\\Anushree Mandal\\.nuget\\packages\\",
-        "outputPath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\obj\\",
+        "projectPath": "D:\\swapnil\\git\\smswebapp\\smswebapp\\smswebapp.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\swapnil\\git\\smswebapp\\smswebapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anushree Mandal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -48,6 +54,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -56,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

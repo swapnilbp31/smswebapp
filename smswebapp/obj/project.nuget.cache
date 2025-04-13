@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Tmv7iGKUrSjPoOMlmFOJASHPuAMWA/wn0tIsyZhMKesoCN03uHR0w+l5r127PvNTW4Sw8nELWNJdG0QuRybs2A==",
+  "dgSpecHash": "tmHTheALIy4=",
   "success": true,
-  "projectFilePath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project3\\webapp\\smswebapp\\smswebapp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\swapnil\\git\\smswebapp\\smswebapp\\smswebapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

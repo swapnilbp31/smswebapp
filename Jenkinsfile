@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
+                 git 'https://github.com/swapnilbp31/smswebapp.git'
             }
         }
 
@@ -34,19 +34,5 @@ pipeline {
             }
         }
 
-        stage('Publish') {
-            steps {
-                script {
-                    // Publishing the application
-                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
-                }
-            }
-        }
-    }
-
-    post {
-        success {
-            echo 'Build, test, and publish successful!'
-        }
     }
 }
