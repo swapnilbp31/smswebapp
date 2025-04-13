@@ -1,4 +1,5 @@
-FROM tomcat:10.1.15-jdk21
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 LABEL author=ethans
 RUN apt-get update -y
-COPY /var/lib/jenkins/workspace/msbuild_student/smswebapp/bin/Release/net8.0/smswebapp.dll /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/msbuild_student/smswebapp/bin/Release/net8.0/smswebapp.dll .
+ENTRYPOINT ["dotnet", "smswebapp.dll"]
